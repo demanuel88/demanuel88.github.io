@@ -1,0 +1,57 @@
+#EXTM3U
+#EXTINF:-1 tvg-logo="http://www.radiosargentina.com.ar/png/VI---TVP.png" group-title="Nacional",LS82 TVP
+http://www.radiosargentina.com.ar/php/tvm3u.php?id=TEAR0000
+#EXTINF:-1 tvg-logo="http://www.radiosargentina.com.ar/png/VI--LS85.png" group-title="Nacional",LS85 El Trece
+http://www.radiosargentina.com.ar/php/tvm3u.php?id=TEAR0000
+#EXTINF:-1 tvg-logo="http://www.radiosargentina.com.ar/png/VITELEFE.png" group-title="Nacional",LS84 Telefe
+http://www.radiosargentina.com.ar/php/tvm3u.php?id=TEAR0048
+#EXTINF:-1 tvg-logo="http://www.radiosargentina.com.ar/png/VI--LS83.png" group-title="Nacional",LS83 Canal 9
+http://dwgoed11hdvfh.cloudfront.net/c9/smil:live.smil/playlist.m3u8
+#EXTINF:-1 tvg-logo="http://www.radiosargentina.com.ar/png/VI--LS86.png" group-title="Nacional",LS86 América
+http://www.radiosargentina.com.ar/php/tvm3u.php?id=TEAR0000
+#EXTINF:-1 tvg-logo="http://www.radiosargentina.com.ar/png/VIENCUEN.png" group-title="Nacional",Encuentro
+http://www.radiosargentina.com.ar/php/tvm3u.php?id=DIAR0033
+#EXTINF:-1 tvg-logo="http://www.radiosargentina.com.ar/png/VIPAKAPA.png" group-title="Nacional",Paka Paka
+http://www.radiosargentina.com.ar/php/tvm3u.php?id=DIAR0034
+#EXTINF:-1 tvg-logo="http://www.radiosargentina.com.ar/png/VI-TECTV.png" group-title="Nacional",TECtv
+http://www.radiosargentina.com.ar/php/tvm3u.php?id=DIAR0035
+#EXTINF:-1 tvg-logo="http://www.radiosargentina.com.ar/png/VI--DXTV.png" group-title="Nacional",DEPORTV
+http://www.radiosargentina.com.ar/php/tvm3u.php?id=DIAR0037
+#EXTINF:-1 tvg-logo="http://www.radiosargentina.com.ar/png/VI---A24.png" group-title="Noticias",A24
+http://www.radiosargentina.com.ar/php/tvm3u.php?id=TEAR0000
+#EXTINF:-1 tvg-logo="http://www.radiosargentina.com.ar/png/VI----TN.png" group-title="Noticias",TN Todo Noticias
+https://www.youtube.com/watch?v=-1xif50QMr4
+#EXTINF:-1 tvg-logo="http://www.radiosargentina.com.ar/png/VI--26TV.png" group-title="Noticias",Canal 26
+http://www.radiosargentina.com.ar/php/tvm3u.php?id=DIAR0038
+#EXTINF:-1 tvg-logo="http://www.radiosargentina.com.ar/png/VICRONIC.png" group-title="Noticias",Crónica TV
+https://www.youtube.com/channel/UCT7KFGv6s2a-rh2Jq8ZdM1g/live
+#EXTINF:-1 tvg-logo="http://www.radiosargentina.com.ar/png/VI--CN23.png" group-title="Noticias",CN23
+https://www.youtube.com/channel/UCC05qIa00qEB06CtCi01NbQ/live
+#EXTINF:-1 tvg-logo="http://www.radiosargentina.com.ar/png/VI---C5N.png" group-title="Noticias",C5N
+https://www.youtube.com/user/c5n/live
+#EXTINF:-1 tvg-logo="http://www.radiosargentina.com.ar/png/VI----LN.png" group-title="Noticias",LN+
+https://www.youtube.com/channel/UCba3hpU7EFBSk817y9qZkiA/live
+#EXTINF:-1 tvg-logo="http://www.radiosargentina.com.ar/png/VI----DW.png" group-title="Noticias",DW
+http://www.radiosargentina.com.ar/php/tvm3u.php?id=DIAR0014
+#EXTINF:-1 tvg-logo="http://www.radiosargentina.com.ar/png/VIEURONW.png" group-title="Noticias",Euronews
+http://www.radiosargentina.com.ar/php/tvm3u.php?id=DIAR0016
+#EXTINF:-1 tvg-logo="http://www.radiosargentina.com.ar/png/VIFRANCE.png" group-title="Noticias",France24 English
+http://www.radiosargentina.com.ar/php/tvm3u.php?id=DIAR0018
+#EXTINF:-1 tvg-logo="http://www.radiosargentina.com.ar/png/VIFRANCE.png" group-title="Noticias",France24 Espanol
+https://www.youtube.com/channel/UCUdOoVWuWmgo1wByzcsyKDQ/live
+#EXTINF:-1 tvg-logo="http://www.radiosargentina.com.ar/png/VIHISPAN.png" group-title="Noticias",Hispan TV
+http://www.radiosargentina.com.ar/php/tvm3u.php?id=DIAR0019
+#EXTINF:-1 tvg-logo="http://www.radiosargentina.com.ar/png/VI---NHK.png" group-title="Noticias",NHK World
+http://www.radiosargentina.com.ar/php/tvm3u.php?id=DIAR0023
+#EXTINF:-1 tvg-logo="http://www.radiosargentina.com.ar/png/VI----RT.png" group-title="Noticias",RT
+https://www.youtube.com/channel/UC2mtXUpAYLYJIZ2deSPhlqw/live
+#EXTINF:-1 tvg-logo="http://www.radiosargentina.com.ar/png/VITELESU.png" group-title="Noticias",Telesur
+http://www.radiosargentina.com.ar/php/tvm3u.php?id=DIAR0028
+#EXTINF:-1 tvg-logo="http://www.radiosargentina.com.ar/png/VIACQMDQ.png" group-title="Mar del Plata",Acqua
+http://www.radiosargentina.com.ar/php/tvm3u.php?id=DIAR0077
+#EXTINF:-1 tvg-logo="http://www.radiosargentina.com.ar/png/VI--79TV.png" group-title="Mar del Plata",C69
+http://www.radiosargentina.com.ar/php/tvm3u.php?id=DIAR0080
+#EXTINF:-1 tvg-logo="http://www.radiosargentina.com.ar/png/VILRI486.png" group-title="Mar del Plata",Canal 8
+https://youtu.be/oCSGu5TG-w4
+#EXTINF:-1 tvg-logo="http://www.radiosargentina.com.ar/png/VI--LU82.png" group-title="Mar del Plata",Canal 10
+https://cdn2.zencast.tv:30443/live/canal10smil/playlist.m3u8
