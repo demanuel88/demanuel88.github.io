@@ -1,0 +1,308 @@
+<!DOCTYPE HTML>
+<html>
+
+	<head>
+        <link rel="shortcut icon" href="favicon.ico">
+	
+	<title>Inicio</title>
+	<style>
+		body{
+			margin: 0 auto;
+			background-color:#CBE6C2;
+			font-family:"Tahoma",sans-serif;
+		}
+		a  {
+			display: block;
+			width: 196px;
+			padding: 2px;
+			text-decoration:none;
+			color: black;
+		}
+		a:hover{
+		background-color: #98C28C
+		}
+		ul {
+			background-color: #76966C;
+			list-style-type: none;
+			list-style-position:inside;
+			border: 1px solid #0F3F00;
+			margin: 10px 10px;
+			padding: 0px;
+			display:inline;
+			float: left;
+		}
+		li {
+			width: 200px;
+			margin: 2px;
+			border: 1px dotted #0F3F00;
+		}
+		.titulo {
+			background-color: #427730;
+			text-align:center;
+			font-weight:bold;
+		}
+		input{
+			display:block;
+			margin 4px;
+			border: 1px solid #102101;
+			background-color: #CBE6C2;
+			width:130px;
+		}
+		button{
+			margin: 2px;
+			width: 100px;
+			background-color: #295504;
+			color:white;
+			border: 1px solid #102101;
+		}
+		button:hover{
+			background-color:#397506
+		}	
+	</style>
+	<script type="text/javascript">
+	//<![CDATA[ 
+		window.onload=function(){
+			function mostrarFecha(days){
+			fecha=new Date();
+			tiempo=fecha.getTime();
+			milisegundos=parseInt(days*24*60*60*1000);
+			total=fecha.setTime(tiempo+milisegundos);
+			day=fecha.getDate();
+			if(day<10){day="0"+day};
+			month=fecha.getMonth()+1;
+			if (month<10) {month="0"+month};
+			year=fecha.getFullYear();
+			return day+"/"+month+"/"+year;
+			}
+			document.getElementById('insc1').value=mostrarFecha(-14);
+			document.getElementById('insc2').value=mostrarFecha(-44);
+			document.getElementById('cert').value=mostrarFecha(-24);
+		}
+		function calcularFecha(){
+			var x = document.getElementById("ifecha").value
+			fecha=new Date(x);
+			tiempo=fecha.getTime();
+			milisegundos=parseInt(30*24*60*60*1000);
+			total=fecha.setTime(tiempo+milisegundos);
+			day=fecha.getDate();
+			if(day<10){day="0"+day};
+			month=fecha.getMonth()+1;
+			if (month<10) {month="0"+month};
+			year=fecha.getFullYear();
+			document.getElementById("cinsc1").value = day+"/"+month+"/"+year;
+			fecha=new Date(x);
+			tiempo=fecha.getTime();
+			milisegundos=parseInt(45*24*60*60*1000);
+			total=fecha.setTime(tiempo+milisegundos);
+			day=fecha.getDate();
+			if(day<10){day="0"+day};
+			month=fecha.getMonth()+1;
+			if (month<10) {month="0"+month};
+			year=fecha.getFullYear();
+			document.getElementById("cinsc2").value = day+"/"+month+"/"+year;
+			fecha=new Date(x);
+			tiempo=fecha.getTime();
+			milisegundos=parseInt(180*24*60*60*1000);
+			total=fecha.setTime(tiempo+milisegundos);
+			day=fecha.getDate();
+			if(day<10){day="0"+day};
+			month=fecha.getMonth()+1;
+			if (month<10) {month="0"+month};
+			year=fecha.getFullYear();
+			document.getElementById("cinsc3").value = day+"/"+month+"/"+year;
+			
+			fecha=new Date(x);
+			tiempo=fecha.getTime();
+			milisegundos=parseInt(25*24*60*60*1000);
+			total=fecha.setTime(tiempo+milisegundos);
+			day=fecha.getDate();
+			if(day<10){day="0"+day};
+			month=fecha.getMonth()+1;
+			if (month<10) {month="0"+month};
+			year=fecha.getFullYear();
+			document.getElementById("ccert").value = day+"/"+month+"/"+year;
+			
+			fecha=new Date(x);
+			tiempo=fecha.getTime();
+			milisegundos=parseInt(90*24*60*60*1000);
+			total=fecha.setTime(tiempo+milisegundos);
+			day=fecha.getDate();
+			if(day<10){day="0"+day};
+			month=fecha.getMonth()+1;
+			if (month<10) {month="0"+month};
+			year=fecha.getFullYear();
+			document.getElementById("cinf").value = day+"/"+month+"/"+year;
+			
+			fecha=new Date(x);
+			tiempo=fecha.getTime();
+			milisegundos=parseInt(120*24*60*60*1000);
+			total=fecha.setTime(tiempo+milisegundos);
+			day=fecha.getDate();
+			if(day<10){day="0"+day};
+			month=fecha.getMonth()+1;
+			if (month<10) {month="0"+month};
+			year=fecha.getFullYear();
+			document.getElementById("cdt").value = day+"/"+month+"/"+year;
+			fecha=new Date(x);
+			tiempo=fecha.getTime();
+			milisegundos=parseInt(90*24*60*60*1000);
+			total=fecha.setTime(tiempo+milisegundos);
+			day=fecha.getDate();
+			if(day<10){day="0"+day};
+			month=fecha.getMonth()+1;
+			if (month<10) {month="0"+month};
+			year=fecha.getFullYear();
+			document.getElementById("cdtc").value = day+"/"+month+"/"+year;
+		}
+	//]]>  
+	</script>
+	</head>
+	<body>
+	<ul>
+		<li class="titulo">Vencimientos</li>
+		<li> 
+			<label>Gestor:</label>
+			<input readonly="true" id="insc1"></input>
+			<label>Inscripcion:</label>
+			<input readonly="true" id="insc2"></input>
+			<label>Certificados:</label>
+			<input readonly="true" id="cert"></input> 
+		</li>
+		<li class="titulo">Calculadora de Vencimientos</li>
+		<li>
+			<form>
+			<label>Ingresar Fecha</label>
+			<input  id="ifecha" type="date" onchange="calcularFecha() " style="width: 150px"></input>
+			</form>
+		</li>
+		<li>
+			<form> 
+			<label>Informes</label>
+			<input readonly="true" id="cinf"></input>
+			<label>Certificados:</label>
+			<input readonly="true" id="ccert"></input>	
+			<label>Gestor:</label>
+			<input readonly="true" id="cinsc1"></input>
+			<label>Inscripcion:</label>
+			<input readonly="true" id="cinsc2"></input>
+			<label>Insc.Provicional:</label>
+			<input readonly="true" id="cinsc3"></input>
+			<label>Inf.Regularizac.<label>
+			<input readonly="true" id="cdt"></input>
+			<label>Inf.Consolidacion<label>
+			<input readonly="true" id="cdtc"></input>
+			</form>
+		</li>
+	</ul>
+	<ul>
+		<li class="titulo">Municipalidad de Gral.Pueyrredon</li>
+		<li><a href="http://appsvr.mardelplata.gob.ar/Consultas/ConsuCta/Index.asp">Deuda ABL/TSU (nro.cuenta)</a></li>
+		<li><a href="http://appsvr.mardelplata.gob.ar/consultas/login/index.asp?URL=/Consultas/ConsuNom/ConsultaNom.asp">Deuda ABL/TSU (nom.catastral)</a></li>
+		<li><a href="http://mardelplata.gob.ar/vu">Ventanilla Unica</a></li>
+		<li><a href="https://ssl.mardelplata.gov.ar/consultas/SSL/cf/loginRedirect.asp?url=/Consultas/CambioTitularidad/index.asp">Cambio de Dominio</a></li>
+		<li><a href="http://appsvr.mardelplata.gob.ar/Consultas/reliquidaCtaCte/Index.asp">Imprimir Tasa ABL/TSU</a></li>
+		<li><a href="http://appsvr.mardelplata.gob.ar/consultas/pagoanual/">Liq. Pago Anual</a></li>
+		<li><a href="http://appsvr.mardelplata.gob.ar/Consultas/ConsuCon/">Reimprimir Convenio ABL/TSU</a></li>
+		<li><a href="http://appsvr.mardelplata.gob.ar/Consultas/ConsuConRC/">Reimprimir Convenio ABL/TSU No.Venc</a></li>
+		<li><a href="http://appsvr.mardelplata.gob.ar/Consultas/Expedientes/exped.asp">Expedientes</a></li>
+		<li><a href="http://appsvr.mardelplata.gob.ar/consultas/obras/Default.aspx">Expedientes Obras Priv.</a></li>
+		<li><a href="http://appsvr.mardelplata.gob.ar/consultas/cot/index.asp">Plano COT</a></li>
+		<li><a href="https://gis.mardelplata.gob.ar/app_mapa_interactivo/planodigital.php?subrubro=15">Plano Barrios</a></li>
+		<li><a href="http://appsvr.mardelplata.gob.ar/Consultas/SelladosVarios/index.asp">Sellados</a></li>
+		<li><a href="http://appsvr.mardelplata.gob.ar/Consultas/ReliquidaCtaCteDC/index.asp">Reliq.Der.Construcc.</a></li>
+		<li><a href="http://appsvr.mardelplata.gob.ar/Consultas/ConsuConDC/">Reliq.Convenio D.C.</a></li>
+		<li><a href="http://appsvr.mardelplata.gob.ar/Consultas/ReliquidaCtaCteEmvial/index.asp">EMVIAL Deuda</a></li>
+		<li><a href="http://appsvr.mardelplata.gob.ar/Consultas/ReliquidaCtaCteEmvialContado/index.asp">EMVIAL Deuda Pago Cdo.</a></li>
+		<li><a href="http://appsvr.mardelplata.gob.ar/consultas/ReliquidaCtaCteGIRSU/index.asp">GIRSU</a></li>
+		<li><a href="http://pm.mardelplata.gov.ar/sysworkflow/en-AR/formexterno/1998310264fad0987575121052352916/FormSolicitaAntecedentes.php">Nom.Cat</a></li>
+		<li><a href="http://200.59.33.87/Indico/index.php">OSSE MGP</a></li>
+	</ul>
+	<ul>
+		<li class="titulo">Arba</li>
+		<li><a href="http://www3.arba.gov.ar/AvisoDeudas/?imp=0">Aviso de Deudas Inmobiliario</a></li>
+		<li><a href="http://www3.arba.gov.ar/Informacion/">Consulta Informacion Catastral</a></li>
+		<li><a href="http://www2.arba.gov.ar/DSISIC/sFiltro/consultaProfesional.do?metodo=consultaProfesional">Estado del Trámite Catastral</a></li>
+		<li><a href="http://www4.arba.gov.ar/LiqPredet/InicioLiquidacion.do?imp=0&Frame=SI&origen=WEB">Liquidar Deuda Inmobiliario</a></li>
+		<li><a href="http://www2.arba.gov.ar/SIESBA/">SIESBA</a></li>
+		<li><a href="http://www2.arba.gov.ar/DSISIC/">Sistema Información Catastral</a></li>
+		<li><a href="https://sso.arba.gov.ar/Login/login?service=http%3A%2F%2Fwww2.arba.gov.ar%2FTGBienes">TGB</a></li>
+		<li><a href="http://www.colescba.org.ar/www/pages/itgb/indexCalculadoraITGB.jsf">Calculadora TGB</a></li>
+		<li><a href="http://www.arba.gov.ar/Intranet/Legislacion/Catastro/Inicio.htm">Normas Legales Catastro</a></li>
+		<li><a href="https://www.arba.gov.ar/DPDC/DefensaContribuyenteArba.asp">Reclamos Titularidad</a></li>
+		<li><a href="https://www.carto.arba.gov.ar/cartoArba/application">Cartografia Digital V.2</a></li>
+		<li><a href="http://abierto.geobasig.com.ar/">Planos Geodesia</a></li>
+		<li>Informacion Parcelaria:
+			<form method="get" action="https://cartov1.arba.gov.ar/includes/getFullInfo.php">
+			<input type="text" name="pdo" size="12px" placeholder="Pdo" />
+			<input type="text" name="pda" size="12px" placeholder="Pda" />
+			<button type="submit">Enviar</button>
+			</form>
+		</li>
+	</ul>
+	<ul>
+
+		<li class="titulo">Otras Municipalidades</li>
+		<li><a href="http://www.marchiquita.gov.ar/">Mar Chiquita</a>
+		<li><a href="http://www.lacosta.gov.ar/">La Costa</a>
+		<li><a href="http://boletasum.laplata.gov.ar/">La Plata</a>
+		<li><a href="http://www.tandil.gov.ar/">Tandil</a>
+		<li><a href="http://www.villagesell.gov.ar/">Villa Gesell</a>
+		<li><a href="http://www.necochea.mun.gba.gov.ar/cgi-bin-necochea/P550000.sh">Necochea</a>
+	</ul>	
+	<ul>
+		<li class="titulo">Anses</li>
+		<li><a href="http://www.anses.gob.ar/constancia-de-cuil/">Constancia de CUIL</a></li>
+	</ul>
+	<ul>
+		<li class="titulo">Afip</li>
+		<li><a href="https://seti.afip.gob.ar/padron-puc-constancia-internet/ConsultaConstanciaAction.do">Constancia de Inscripción</a></li>
+		<li>Padron CUIT:
+			<form method="get" action="http://www.cuitonline.com/search.php">
+			<input type="text" name="q" size="12px" placeholder="DNI/Nombre/CUIT" />
+			<button type="submit">Enviar</button>
+			</form>
+		</li>
+		<li><a href="https://auth.afip.gob.ar/contribuyente_/login.xhtml">Acceso con Clave Fiscal</a></li>
+	</ul>
+	<ul>
+		<li class="titulo">Registro Propiedad</li>
+		<li><a href="http://servicios.rpba.gov.ar/estadoTramite/estadoTramite/jsp/index.jsp">Estado de Tramite</a></li>
+		<li><a href="http://servicios.rpba.gov.ar/descargas/formularios/formularios.php">Formularios</a></li>
+		<li><a href="http://www.rpba.gov.ar/biblioteca/digesto.php">Digesto</a></li>
+		<li><a href="https://servicios.rpba.gov.ar/RegPropNew/signon/login.do">Sitio Restringido</a></li>
+	</ul>
+	<ul>
+		<li class="titulo">Colegio de Escribanos</li>
+		<li><a href="http://www.colescba.org.ar/www/pages/nomina/indexNomina.jsf">Nómina de Notarios Bs.As.</a></li>
+		<li><a href="http://www.colescba.org.ar/www/pages/archivo/segTestimonio/index.jsf">Solic.Test.Archivo Bs.As.</a></li>
+		<li><a href="http://www.colescba.org.ar/www/static/servicios/municipios.jsf">Municipios</a></li>
+		<li><a href="http://www.colescba.org.ar/portal/recursos/calendario-fiscal.html">Calendario Fiscal</a></li>
+		<li><a href="http://www.colescba.org.ar/www/secIndex.html">Sitio Restingido Bs.As.</a></li>
+		<li><a href="http://www.colescba.org.ar/consultaRenaper/home/index.jsf">Consulta ReNaPer</a></li>
+		<li><a href="http://www.colescba.org.ar/webmail/">Webmail Colegio</a></li>
+		<li><a href="https://publico.colegio-escribanos.org.ar:8445/nominaEscribanos/">Nomina de Notarios Cap.Fed.</a></li>
+	</ul>
+	<ul>
+		<li class="titulo">UIF</li>
+		<li><a href="https://sro.uif.gob.ar/lut/">Listado de Terroristas</a></li>
+		<li><a href="https://www.argentina.gob.ar/uif/normativa-uif">Normativa UIF</a></li>
+		<li><a href="http://www.colescba.org.ar/ics-wpd/uif/query_uif.htm">Busqueda por DNI/CUIT</a></li>
+		<li><a href="https://sro.uif.gob.ar/sro/">SRO</a></li>
+		<li><a href="https://www.uif.gob.ar/SRO/Login.aspx?ReturnUrl=%2fsro%2fSujeto%2fConstanciaInscripcion.aspx">Constancia Inscripción</a></li>
+	</ul>
+	<ul>
+		<li class="titulo">Utilidades</li>
+		<li><a href="http://www.jus.gob.ar/datos-personales/registros/documentos-cuestionados.aspx">Documentos Cuestionados</a></li>
+		<li><a href="https://www.correoargentino.com.ar/formularios/cpa">CPA</a></li>
+		<li>Telefonos:
+			<form method="get" action="http://buscador.telexplorer.com/ans.asp">
+			<input type="text" name="q" size="12px" placeholder="Nom/Dir/Tel" />
+			<button type="submit">Enviar</button>
+			</form>
+		</li>
+		<li><a href="http://tramix.persjuri.gba.gov.ar:8080/TRAMIX/">Exptes. Jurídicas</a></li>
+		<li><a href="http://infoleg.mecon.gov.ar/?page_id=112">Infoleg</a></li>
+		<li><a href="http://mev.scba.gov.ar/">MEV Bs.As.</a></li>
+	</ul>
+	</body>
+</html>
