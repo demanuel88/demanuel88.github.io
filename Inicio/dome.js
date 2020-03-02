@@ -99,6 +99,7 @@ var sites = {
 					"SRO" 									: "https://sro.uif.gob.ar/sro/", 
 					"Constancia Inscripción" 				: "https://sro.uif.gob.ar/SRO/Login.aspx?ReturnUrl=%2fsro%2fSujeto%2fConstanciaInscripcion.aspx",
 					"Normativa UIF" 						: "https://www.argentina.gob.ar/uif/normativa-uif", 
+					"Constancia Inscriptos"					: "https://sro.uif.gob.ar/SROAPP/#/consultaRegistracion",
 				},
 				"Utilidades": {
 					"Documentos Cuestionados" : "https://docuest.aaip.gob.ar/index.html", 
