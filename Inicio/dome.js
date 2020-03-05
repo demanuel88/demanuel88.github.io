@@ -88,7 +88,7 @@ var sites = {
 					"Gestion Firma Digital" 				: "http://www.colescba.org.ar/gestionFirmaDigital", 
 					"Sitio Restingido Bs.As." 				: "http://www.colescba.org.ar/www/secIndex.html",
 					"Solic.Test.Archivo Bs.As." 			: "http://www.colescba.org.ar/www/pages/archivo/segTestimonio/index.jsf", 
-					"Legalización Digital"				: "http://www.colescba.org.ar/legalizacionDigital/pages/public/solicitudLegalizacion.jsf"
+					"Legalización Digital"				: "http://www.colescba.org.ar/legalizacionDigital/pages/public/solicitudLegalizacion.jsf",
 					"Nomina de Notarios Cap.Fed." 			: "https://publico.colegio-escribanos.org.ar:8445/nominaEscribanos/",
 					"Municipios" 							: "http://www.colescba.org.ar/www/static/servicios/municipios.jsf", 
 					"Calendario Fiscal" 					: "http://www.colescba.org.ar/portal/recursos/calendario-fiscal.html", 
