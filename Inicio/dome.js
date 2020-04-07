@@ -67,7 +67,7 @@ var sites = {
 					"Reclamos Titularidad" 					: "https://www.arba.gov.ar/DPDC/DefensaContribuyenteArba.asp", 
 					"Cartografia Digital" 					: "https://www.carto.arba.gov.ar/cartoArba/application", 
 				},
-				"Obras Sanitas MGP": {
+				"Obras Sanitarias MGP": {
 					"Consulta de Deuda" 				: "https://app2.osmgp.gov.ar/oficinavirtual/tramites-sin-registro/ctacte/deuda", 
 					"Oficina Virtual		" 		: "https://app2.osmgp.gov.ar/oficinavirtual/", 
 					"Iniciar Tramite"	 			: "https://app2.osmgp.gov.ar/oficinavirtual/tramites/nuevo", 
