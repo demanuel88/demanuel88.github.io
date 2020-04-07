@@ -53,7 +53,6 @@ var sites = {
 					"EMVIAL Deuda Pago Cdo." 				: "http://appsvr.mardelplata.gob.ar/Consultas/ReliquidaCtaCteEmvialContado/index.asp", 
 					"GIRSU" 								: "http://appsvr.mardelplata.gob.ar/consultas/ReliquidaCtaCteGIRSU/index.asp", 
 					"Nom.Cat" 								: "http://pm.mardelplata.gov.ar/sysworkflow/en-AR/formexterno/1998310264fad0987575121052352916/FormSolicitaAntecedentes.php", 
-					"OSSE MGP" 								: "http://app.osmgp.gov.ar/indico", 
 				},
 				"ARBA": {
 					"Aviso de Deudas Inmobiliario" 			: "http://www8.arba.gov.ar/AvisoDeudas/?imp=0", 
@@ -67,6 +66,12 @@ var sites = {
 					"Normas Legales Catastro" 				: "http://www.arba.gov.ar/Intranet/Legislacion/Catastro/Inicio.htm", 
 					"Reclamos Titularidad" 					: "https://www.arba.gov.ar/DPDC/DefensaContribuyenteArba.asp", 
 					"Cartografia Digital" 					: "https://www.carto.arba.gov.ar/cartoArba/application", 
+				},
+				"Obras Sanitas MGP": {
+					"Consulta de Deuda" 				: "https://app2.osmgp.gov.ar/oficinavirtual/tramites-sin-registro/ctacte/deuda", 
+					"Oficina Virtual		" 		: "https://app2.osmgp.gov.ar/oficinavirtual/", 
+					"Iniciar Tramite"	 			: "https://app2.osmgp.gov.ar/oficinavirtual/tramites/nuevo", 
+					"Ver Tramites"		 			: "https://app2.osmgp.gov.ar/oficinavirtual/tramites",
 				},
 				"ANSES": {
 					"Constancia de CUIL" 					: "http://www.anses.gob.ar/constancia-de-cuil/", 
