@@ -60,7 +60,7 @@ var sites = {
 					"Estado del Trámite Catastral" 			: "http://www2.arba.gov.ar/DSISIC/sFiltro/consultaProfesional.do?metodo=consultaProfesional", 
 					"Liquidar Deuda Inmobiliario" 			: "https://app.arba.gov.ar/LiqPredet/InicioLiquidacion.do?imp=0&Frame=NO&origen=WEB&url_volver=https%3A%2F%2Fwww%2Earba%2Egov%2Ear%2F", 
 					"SIESBA" 								: "http://www10.arba.gov.ar/SIESBA/", 
-					"Sistema Información Catastral" 		: "http://www8.arba.gov.ar/DSISIC/", 
+					"Sistema Información Catastral" 		: "http://www10.arba.gov.ar/DSISIC/", 
 					"TGB" 									: "https://sso.arba.gov.ar/Login/login?service=http%3A%2F%2Fwww2.arba.gov.ar%2FTGBienes", 
 					"Calculadora TGB" 						: "http://www.colescba.org.ar/www/pages/itgb/indexCalculadoraITGB.jsf", 
 					"Normas Legales Catastro" 				: "http://www.arba.gov.ar/Intranet/Legislacion/Catastro/Inicio.htm", 
