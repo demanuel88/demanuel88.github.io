@@ -34,7 +34,7 @@
 // div.innerHTML : {a.innerHTML : a.href}
 var sites = {
 				"Munic.de Gral. Pueyrredon": {
-					"Deuda ABL/TSU (nro.cuenta)" 			: "http://appsvr.mardelplata.gob.ar/Consultas/ConsuCta/Index.asp",
+					"Deuda ABL/TSU (nro.cuenta)" 			: "https://appsb.mardelplata.gob.ar/consultas/loginC/index.asp?URL=/Consultas/ReliquidaCtaCtePasarelas/Index.asp",
 					"Deuda ABL/TSU (nom.catastral)" 		: "http://appsvr.mardelplata.gob.ar/consultas/login/index.asp?URL=/Consultas/ConsuNom/ConsultaNom.asp", 
 					"Ventanilla Unica"						: "http://mardelplata.gob.ar/vu", 
 					"Cambio de Dominio"						: "https://ssl.mardelplata.gov.ar/consultas/SSL/cf/loginRedirect.asp?url=/Consultas/CambioTitularidad/index.asp", 
@@ -51,15 +51,14 @@ var sites = {
 					"Reliq.Conv. Der.Construcc." 			: "http://appsvr.mardelplata.gob.ar/Consultas/ConsuConDC/", 
 					"EMVIAL Deuda" 							: "http://appsvr.mardelplata.gob.ar/Consultas/ReliquidaCtaCteEmvial/index.asp", 
 					"EMVIAL Deuda Pago Cdo." 				: "http://appsvr.mardelplata.gob.ar/Consultas/ReliquidaCtaCteEmvialContado/index.asp", 
-					"GIRSU" 								: "http://appsvr.mardelplata.gob.ar/consultas/ReliquidaCtaCteGIRSU/index.asp", 
 					"Nom.Cat" 								: "http://pm.mardelplata.gov.ar/sysworkflow/en-AR/formexterno/1998310264fad0987575121052352916/FormSolicitaAntecedentes.php", 
 				},
 				"ARBA": {
-					"Aviso de Deudas Inmobiliario" 			: "http://www8.arba.gov.ar/AvisoDeudas/?imp=0", 
+					"Aviso de Deudas Inmobiliario" 			: "https://app.arba.gov.ar/AvisoDeudas/?imp=0", 
 					"Consulta Informacion Catastral" 		: "http://www8.arba.gov.ar/Informacion/", 
 					"Estado del Trámite Catastral" 			: "http://www10.arba.gov.ar/DSISIC/sFiltro/consultaProfesional.do?metodo=consultaProfesional", 
 					"Liquidar Deuda Inmobiliario" 			: "https://app.arba.gov.ar/LiqPredet/InicioLiquidacion.do?imp=0&Frame=NO&origen=WEB&url_volver=https%3A%2F%2Fwww%2Earba%2Egov%2Ear%2F", 
-					"SIESBA" 								: "http://www10.arba.gov.ar/SIESBA/", 
+					"SIESBA" 								: "http://app.arba.gov.ar/SIESBA/", 
 					"Sistema Información Catastral" 		: "http://www10.arba.gov.ar/DSISIC/", 
 					"TGB" 									: "https://sso.arba.gov.ar/Login/login?service=http%3A%2F%2Fwww2.arba.gov.ar%2FTGBienes", 
 					"Calculadora TGB" 						: "http://www.colescba.org.ar/www/pages/itgb/indexCalculadoraITGB.jsf", 
