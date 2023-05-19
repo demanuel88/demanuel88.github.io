@@ -64,7 +64,9 @@ var sites = {
 					"Calculadora TGB" 					: "https://www.colescba.org.ar/www/pages/itgb/indexCalculadoraITGB.jsf", 
 					"Normas Legales Catastro" 				: "https://www.arba.gov.ar/Intranet/Legislacion/Catastro/Inicio.htm", 
 					"Reclamos Titularidad" 					: "https://www.arba.gov.ar/DPDC/DefensaContribuyenteArba.asp", 
-					"Cartografia Digital" 					: "https://www.carto.arba.gov.ar/cartoArba/application", 
+					"Cartografia Digital" 					: "https://www.carto.arba.gov.ar/cartoArba/application",
+					"Consulta Valuaciones Historicas"			: "https://app.arba.gov.ar/Informacion/consultarValuacionesInit.do",
+
 				},
 				"Obras Sanitarias MGP": {
 					"Consulta de Deuda" 					: "https://app2.osmgp.gov.ar/oficinavirtual/tramites-sin-registro/ctacte/deuda", 
