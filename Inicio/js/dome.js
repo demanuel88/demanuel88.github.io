@@ -114,6 +114,14 @@ var sites = {
 					"Exptes. Jurídicas" 					: "https://tramix.persjuri.gba.gov.ar:8080/TRAMIX/", 
 					"MEV Bs.As." 						: "https://mev.scba.gov.ar/", 
 					"Buscar DNI/CUIT con Nombre"				: "https://www.dateas.com/consulta_cuit_cuil",
+				},
+					"Verificacion Doc. Digital": {
+					"Titulo Prop. Automotor" 				: "https://www2.jus.gov.ar/dnrpa-site/#!/consultarTramite", 
+					"Partidas Bs.As." 					: "https://www.gdeba.gba.gob.ar/consultagedo/", 
+					"Partidas CABA" 					: "https://buenosaires.gob.ar/portal-autenticidad/", 
+					"Apostilla" 						: "https://www.argentina.gob.ar/relacionesexterioresyculto/legalizacion-internacional", 
+					"Oficio Jud. Buenos Aires" 				: "https://notificaciones.scba.gov.ar/verificar.aspx",
+					"Folios Notariales CABA" 				: "https://publico.colegio-escribanos.org.ar:8445/vadono/",
 				}
 			};
 
