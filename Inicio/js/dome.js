@@ -88,7 +88,7 @@ var sites = {
 					"Digesto" 						: "https://www.rpba.gov.ar/biblioteca/digesto.php",
 				},
 				"Colegio de Escribanos": {
-					"Nómina de Notarios Bs.As." 				: "https://www.colescba.org.ar/www/pages/nomina/indexNomina.jsf", 
+					"Nomina de Notarios Bs.As." 				: "https://www.colescba.org.ar/www/pages/nomina/indexNomina.jsf", 
 					"Folios Actuación Notarial Digital"		 	: "https://www.colescba.org.ar/actuacionDigital", 
 					"Gestion Firma Digital" 				: "https://www.colescba.org.ar/gestionFirmaDigital", 
 					"Sitio Restingido Bs.As." 				: "https://www.colescba.org.ar/www/secIndex.html",
@@ -97,7 +97,7 @@ var sites = {
 					"Webmail Colegio" 					: "https://www.colescba.org.ar/webmail/", 
 					"Consulta ReNaPer" 					: "https://www.colescba.org.ar/consultaRenaper/pages/formConsultaRenaper.jsf", 
 					"Legalización Digital"					: "https://www.colescba.org.ar/legalizacionDigital/pages/public/solicitudLegalizacion.jsf",
-					"Nomina de Notarios Cap.Fed." 				: "https://publico.colegio-escribanos.org.ar:8445/nominaEscribanos/",
+					"Nomina de Notarios Cap.Fed." 				: "https://publico2.colegio-escribanos.org.ar:8445/nomina-escribanos-publica/nominas/inicio",
 					"Municipios" 						: "http://www.colescba.org.ar/www/static/servicios/municipios.jsf", 
 					"Calendario Fiscal" 					: "https://www.colescba.org.ar/portal/recursos/calendario-fiscal.html", 
 				},
