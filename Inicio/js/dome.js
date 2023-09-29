@@ -115,6 +115,7 @@ var sites = {
 					"Exptes. Jurídicas" 					: "https://tramix.persjuri.gba.gov.ar:8080/TRAMIX/", 
 					"MEV Bs.As." 						: "https://mev.scba.gov.ar/", 
 					"Buscar DNI/CUIT con Nombre"				: "https://www.dateas.com/consulta_cuit_cuil",
+					"GIDE Hipotecario"					: "https://extranet.hipotecario.com.ar/gide",
 				},
 					"Verificacion Doc. Digital": {
 					"Titulo Prop. Automotor" 				: "https://www2.jus.gov.ar/dnrpa-site/#!/consultarTramite", 
