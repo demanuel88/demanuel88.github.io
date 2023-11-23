@@ -82,11 +82,12 @@ var sites = {
 					"Constancia de Inscripción" 				: "https://seti.afip.gob.ar/padron-puc-constancia-internet/ConsultaConstanciaAction.do", 
 					"Acceso con Clave Fiscal"				: "https://auth.afip.gob.ar/contribuyente_/login.xhtml",  
 				},
-				"Reg. Prop. Bs.As.": { 
-					"Estado de Tramite" 					: "https://servicios.rpba.gov.ar/estadoTramite/estadoTramite/jsp/index.jsp", 
-					"Sitio Restringido" 					: "https://servicios.rpba.gov.ar/RegPropNew/signon/login.do",
-					//"Formularios" 					: "https://www.rpba.gov.ar/descargas/formulariospublicidad.php", 
-					"Digesto" 						: "https://www.rpba.gov.ar/biblioteca/digesto.php",
+				"Registro Prop.": { 
+					"Estado de Tramite Bs.As." 					: "https://servicios.rpba.gov.ar/estadoTramite/estadoTramite/jsp/index.jsp", 
+					"Sitio Restringido Bs.As." 					: "https://servicios.rpba.gov.ar/RegPropNew/signon/login.do",
+					//"Formularios" 						: "https://www.rpba.gov.ar/descargas/formulariospublicidad.php", 
+					"Digesto Bs.As." 						: "https://www.rpba.gov.ar/biblioteca/digesto.php",
+					"Sitio Restringido CABA"					: "https://informes.dnrpi.jus.gob.ar/sipel/Account/Login",
 				},
 				"Colegio de Escribanos": {
 					"Nomina de Notarios Bs.As." 				: "https://www.colescba.org.ar/www/pages/nomina/indexNomina.jsf", 
