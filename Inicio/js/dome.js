@@ -77,6 +77,7 @@ var sites = {
 				"ANSES": {
 					"Constancia de CUIL" 					: "https://www.anses.gob.ar/constancia-de-cuil/", 
 					"Constancia CUIL Vieja"					: "http://servicioswww.anses.gob.ar/ConstanciadeCuil2/Inicio.aspx",
+					"Certificación Negativa"				: "https://servicioswww.anses.gob.ar/censite/",
 				},
 				"AFIP": {
 					"Constancia de Inscripción" 				: "https://seti.afip.gob.ar/padron-puc-constancia-internet/ConsultaConstanciaAction.do", 
