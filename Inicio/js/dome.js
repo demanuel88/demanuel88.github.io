@@ -34,7 +34,7 @@
 // div.innerHTML : {a.innerHTML : a.href}
 var sites = {
 				"Munic.de Gral. Pueyrredon": {
-					"Deuda ABL/TSU (nro.cuenta)" 				: "https://appsb.mardelplata.gob.ar/consultas/loginC/index.asp?URL=/Consultas/ReliquidaCtaCtePasarelas/Index.asp",
+					"Deuda ABL/TSU (nro.cuenta)" 				: "https://appsvr.mardelplata.gob.ar/Consultas/ConsuCta/Index.asp",
 					"Deuda ABL/TSU (nom.catastral)" 			: "https://appsvr.mardelplata.gob.ar/consultas/login/index.asp?URL=/Consultas/ConsuNom/ConsultaNom.asp", 
 					"Ventanilla Unica"					: "https://mardelplata.gob.ar/vu", 
 					//NO FUNCIONA "Cambio de Dominio"			: "https://ssl.mardelplata.gov.ar/consultas/SSL/cf/loginRedirect.asp?url=/Consultas/CambioTitularidad/index.asp", 
