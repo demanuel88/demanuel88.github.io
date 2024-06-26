@@ -49,7 +49,7 @@ var sites = {
 					"Sellados" 						: "https://appsvr.mardelplata.gob.ar/Consultas/SelladosVarios/index.asp", 
 					"Reliq.Der.Construcc." 					: "https://appsvr.mardelplata.gob.ar/Consultas/ReliquidaCtaCteDC/index.asp", 
 					"Reliq.Conv. Der.Construcc." 				: "https://appsvr.mardelplata.gob.ar/Consultas/ConsuConDC/", 
-					"Constancia de Pago"					: "https://appsl.mardelplata.gob.ar/apps/mapa_digital/mapadigital.php?subrubro=15",
+					"Constancia de Pago"					: "https://appsb.mardelplata.gob.ar/Consultas/nConstanciaPago/Vistas/Constancia/ConstanciaPago.aspx",
 					//NO FUNCIONA "EMVIAL Deuda" 				: "https://appsvr.mardelplata.gob.ar/Consultas/ReliquidaCtaCteEmvial/index.asp", 
 					//NO FUNCIONA "EMVIAL Deuda Pago Cdo."			: "https://appsvr.mardelplata.gob.ar/Consultas/ReliquidaCtaCteEmvialContado/index.asp", 
 					//NO FUNCIONA "Nom.Cat" 				: "https://pm.mardelplata.gov.ar/sysworkflow/en-AR/formexterno/1998310264fad0987575121052352916/FormSolicitaAntecedentes.php", 
