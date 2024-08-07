@@ -40,6 +40,7 @@ var sites = {
 					//NO FUNCIONA "Cambio de Dominio"			: "https://ssl.mardelplata.gov.ar/consultas/SSL/cf/loginRedirect.asp?url=/Consultas/CambioTitularidad/index.asp", 
 					"Imprimir Tasa ABL/TSU" 				: "https://appsb.mardelplata.gob.ar/consultas/loginC/index.asp?URL=/Consultas/ReliquidaCtaCtePasarelas/Index.asp", 
 					//NO FUNCIONA "Liq. Pago Anual" 			: "https://appsvr.mardelplata.gob.ar/consultas/pagoanual/", 
+					"EMSUR Deuda GIRSU"					: "https://waemsur.mardelplata.gob.ar/",
 					"Reimprimir Convenio ABL/TSU" 				: "https://appsvr.mardelplata.gob.ar/Consultas/ConsuCon/", 
 					"Reimprimir Convenio ABL/TSU No.Venc" 			: "https://appsvr.mardelplata.gob.ar/Consultas/ConsuConRC/", 
 					"Expedientes"						: "https://appsvr.mardelplata.gob.ar/Consultas/Expedientes/exped.asp", 
