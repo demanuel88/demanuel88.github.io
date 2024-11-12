@@ -81,7 +81,7 @@ var sites = {
 					"Constancia CUIL Vieja"					: "http://servicioswww.anses.gob.ar/ConstanciadeCuil2/Inicio.aspx",
 					"Certificación Negativa"				: "https://servicioswww.anses.gob.ar/censite/",
 				},
-				"AFIP": {
+				"ARCA": {
 					"Constancia de Inscripción" 				: "https://seti.afip.gob.ar/padron-puc-constancia-internet/ConsultaConstanciaAction.do", 
 					"Acceso con Clave Fiscal"				: "https://auth.afip.gob.ar/contribuyente_/login.xhtml",  
 				},
