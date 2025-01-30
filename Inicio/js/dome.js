@@ -128,6 +128,7 @@ var sites = {
 					"Apostilla" 						: "https://www.argentina.gob.ar/relacionesexterioresyculto/legalizacion-internacional", 
 					"Oficio Jud. Buenos Aires" 				: "https://notificaciones.scba.gov.ar/verificar.aspx",
 					"Folios Notariales CABA" 				: "https://publico.colegio-escribanos.org.ar:8445/vadono/",
+					"DNI en el celular"					: "https://www.argentina.gob.ar/interior/renaper/validar-DNI",
 				}
 			};
 
