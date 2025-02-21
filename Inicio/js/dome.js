@@ -58,9 +58,9 @@ var sites = {
 				"ARBA": {
 					"Aviso de Deudas Inmobiliario" 				: "https://app.arba.gov.ar/AvisoDeudas/?imp=0", 
 					"Consulta Informacion Catastral" 			: "https://app.arba.gov.ar/Informacion/", 
-					"Estado del Trámite Catastral" 				: "https://www10.arba.gov.ar/DSISIC/sFiltro/consultaProfesional.do?metodo=consultaProfesional", 
+					"Estado del Trámite Catastral" 				: "https://www16.arba.gov.ar/DSISIC/sFiltro/consultaProfesional.do?metodo=consultaProfesional", 
 					"Liquidar Deuda Inmobiliario" 				: "https://app.arba.gov.ar/LiqPredet/InicioLiquidacion.do?imp=0&Frame=NO&origen=WEB&url_volver=https%3A%2F%2Fwww%2Earba%2Egov%2Ear%2F", 
-					"SIESBA" 						: "https://www16.arba.gov.ar/SIESBA/", 
+					"SIESBA" 						: "https://www10.arba.gov.ar/SIESBA/", 
 					"Sistema Información Catastral" 			: "https://www16.arba.gov.ar/DSISIC/", 
 					"TGB" 							: "https://www.arba.gov.ar/Aplicaciones/TGBienes.asp", 
 					"Calculadora TGB" 					: "https://www.colescba.org.ar/www/pages/itgb/indexCalculadoraITGB.jsf", 
