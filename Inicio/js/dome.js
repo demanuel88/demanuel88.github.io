@@ -115,10 +115,11 @@ var sites = {
 				},
 				"Utilidades": {
 					"Documentos Cuestionados"				: "https://docuest.aaip.gob.ar/index.html", 
-					"CPA" 							: "https://www.correoargentino.com.ar/formularios/cpa", 
+					"Codigo Postal Argentino (CPA)" 			: "https://www.correoargentino.com.ar/formularios/cpa", 
 					"Exptes. Jurídicas" 					: "https://tramix.persjuri.gba.gov.ar:8080/TRAMIX/", 
 					"MEV Bs.As." 						: "https://mev.scba.gov.ar/", 
 					"Buscar DNI/CUIT con Nombre"				: "https://www.dateas.com/consulta_cuit_cuil",
+					"Planos CPA"						: "http://cpa.org.ar/planosweb/",
 					"GIDE Hipotecario"					: "https://extranet.hipotecario.com.ar/gide",
 				},
 					"Verificacion Doc. Digital": {
