@@ -38,6 +38,7 @@ var sites = {
 					//NO FUNCIONA "Deuda ABL/TSU (nom.catastral)" 			: "https://appsvr.mardelplata.gob.ar/consultas/login/index.asp?URL=/Consultas/ConsuNom/ConsultaNom.asp", 
 					"MDQ Digital"											: "https://autenticar.mardelplata.gob.ar/auth/login-option", 
 					"Autogestion Cuentas"  									: "https://autogestion.mardelplata.gob.ar/", 
+					"Ventanilla Digital"									: "https://appsb.mardelplata.gob.ar/Consultas/nBPM_Bandejas/BandejaEntradaContrib/Panel.aspx?c=MjcxNzUwMzk1MDk=&z=Mzc=&cr=",
 					//NO FUNCIONA "Cambio de Dominio"			: "https://ssl.mardelplata.gov.ar/consultas/SSL/cf/loginRedirect.asp?url=/Consultas/CambioTitularidad/index.asp", 
 					//NO FUNCIONA "Imprimir Tasa ABL/TSU" 				: "https://appsb.mardelplata.gob.ar/consultas/loginC/index.asp?URL=/Consultas/ReliquidaCtaCtePasarelas/Index.asp", 
 					//NO FUNCIONA "Liq. Pago Anual" 			: "https://appsvr.mardelplata.gob.ar/consultas/pagoanual/", 
