@@ -98,8 +98,7 @@ var sites = {
 				"Colegio de Escribanos": {
 					"Nomina de Notarios Bs.As." 				: "https://www.colescba.org.ar/www/pages/nomina/indexNomina.jsf", 
 					"Folios Actuación Notarial Digital"		 	: "https://www.colescba.org.ar/actuacionDigital", 
-					"Gestion Firma Digital" 				: "https://www.colescba.org.ar/gestionFirmaDigital", 
-					"Sitio Restingido Bs.As." 				: "https://www.colescba.org.ar/www/secIndex.html",
+					"Gestion Firma Digital" 				: "https://www.colescba.org.ar/gestionFirmaDigital",
 					"Solic.Test.Archivo Bs.As." 				: "https://www.colescba.org.ar/www/pages/archivo/segTestimonio/index.jsf", 
 					"Escritorio Digital"					: "https://www.colescba.org.ar/escritorio",
 					"Webmail Colegio" 					: "https://www.colescba.org.ar/webmail/", 
