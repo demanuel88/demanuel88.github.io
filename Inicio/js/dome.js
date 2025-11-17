@@ -120,6 +120,7 @@ var sites = {
 					"Codigo Postal Argentino (CPA)" 			: "https://www.correoargentino.com.ar/formularios/cpa", 
 					"Exptes. Jurídicas" 					: "https://tramix.persjuri.gba.gov.ar:8080/TRAMIX/", 
 					"MEV Bs.As." 						: "https://mev.scba.gov.ar/", 
+					"IAF en linea Profesionales"	:	"https://iafenlinea.iaf.gov.ar/eiafprofesionales/index.aspx",
 					"Buscar DNI/CUIT con Nombre"				: "https://www.dateas.com/consulta_cuit_cuil",
 					"GIDE Hipotecario"					: "https://extranet.hipotecario.com.ar/gide",
 				},
