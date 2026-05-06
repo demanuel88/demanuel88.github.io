@@ -105,7 +105,7 @@ var sites = {
 					"Consulta ReNaPer" 					: "https://www.colescba.org.ar/consultaRenaper/pages/formConsultaRenaper.jsf", 
 					"Legalización Digital"					: "https://www.colescba.org.ar/legalizacionDigital/pages/public/solicitudLegalizacion.jsf",
 					"Nomina de Notarios Cap.Fed." 				: "https://publico2.colegio-escribanos.org.ar:8445/nomina-escribanos-publica/nominas/inicio",
-					"Municipios" 						: "http://www.colescba.org.ar/www/static/servicios/municipios.jsf", 
+					"Municipios" 						: "https://www.colescba.org.ar/portal/info-util/informacion-de-municipios", 
 					"Calendario Fiscal" 					: "https://www.colescba.org.ar/portal/recursos/calendario-fiscal.html", 
 				},
 				"UIF": {
