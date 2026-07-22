@@ -94,6 +94,8 @@ var sites = {
 					//"Formularios" 						: "https://www.rpba.gov.ar/descargas/formulariospublicidad.php", 
 					"Digesto Bs.As." 						: "https://www.rpba.gov.ar/biblioteca/digesto.php",
 					"Sitio Restringido CABA"					: "https://informes.dnrpi.jus.gob.ar/sipel/Account/Login",
+					"RPBA Partidos/Area"		:		"https://www.rpba.gov.ar/descargas/partidos_area",
+					"Reclamos RPBA"			:		"https://www.rpba.gov.ar/guiaTramites/reclamos.php",					
 				},
 				"Colegio de Escribanos": {
 					"Nomina de Notarios Bs.As." 				: "https://www.colescba.org.ar/www/pages/nomina/indexNomina.jsf", 
@@ -120,18 +122,19 @@ var sites = {
 					"Codigo Postal Argentino (CPA)" 			: "https://www.correoargentino.com.ar/formularios/cpa", 
 					"Exptes. Jurídicas" 					: "https://tramix.persjuri.gba.gov.ar:8080/TRAMIX/", 
 					"MEV Bs.As." 						: "https://mev.scba.gov.ar/", 
+					"Registro Juicios Universales Bs.As." : "https://rju.scba.gov.ar/",
 					"IAF en linea Profesionales"	:	"https://iafenlinea.iaf.gov.ar/eiafprofesionales/index.aspx",
 					"Buscar DNI/CUIT con Nombre"				: "https://www.dateas.com/consulta_cuit_cuil",
 					"GIDE Hipotecario"					: "https://extranet.hipotecario.com.ar/gide",
 				},
 					"Verificacion Doc. Digital": {
+					"Verificar Firma Digital Arg."		: "https://validadordefirmas.gob.ar/upload",
 					"Titulo Prop. Automotor" 				: "https://www2.jus.gov.ar/dnrpa-site/#!/consultarTramite", 
 					"Partidas Bs.As." 					: "https://www.gdeba.gba.gob.ar/consultagedo/", 
 					"Partidas CABA" 					: "https://buenosaires.gob.ar/portal-autenticidad/", 
 					"Apostilla" 						: "https://www.argentina.gob.ar/relacionesexterioresyculto/legalizacion-internacional", 
 					"Oficio Jud. Buenos Aires" 				: "https://notificaciones.scba.gov.ar/verificar.aspx",
 					"Folios Notariales CABA" 				: "https://publico.colegio-escribanos.org.ar:8445/vadono/",
-					"DNI en el celular"					: "https://www.argentina.gob.ar/interior/renaper/validar-DNI",
 				}
 			};
 
